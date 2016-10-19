@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 	@RequestMapping("/index")
     public String hello(){        
-        return "inssdex";
+        return "index";
     }
 }
