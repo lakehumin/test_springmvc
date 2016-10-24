@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,6 +18,8 @@ import com.lake.service.UserService;
 @Controller
 @RequestMapping("/")
 public class TestController {
+	private static final Logger log = Logger.getLogger(TestController.class);
+	
 	@Resource
 	private UserService userService;
 	
@@ -32,6 +35,7 @@ public class TestController {
 		u.setDate(new Timestamp(System.currentTimeMillis()));
 //		u.setId(15);
 		userService.insert(u);
+		log.info("add success");
 		pw.write("success");
         return ;
     }
@@ -70,6 +74,7 @@ public class TestController {
 //		pw.write(JSON.toJSONString(new Student(new User(26,"cainiao"),"caibi")));
 		
 		userService.deleteByName(name);
+		log.warn("delete");
 		pw.write("success");
         return ;
     }

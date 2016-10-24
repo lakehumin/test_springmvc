@@ -1,0 +1,70 @@
+[INFO] [2016-10-23 17:10:03][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-10-23 17:10:03][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Oct 23 17:10:03 CST 2016]; root of context hierarchy
+[INFO] [2016-10-23 17:10:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-10-23 17:10:03][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-10-23 17:10:03][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 482 ms
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-10-23 17:10:03][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Oct 23 17:10:03 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-10-23 17:10:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add.*] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add/] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.*] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update/] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete.*] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete/] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search.*] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search/] onto handler 'testController'
+[INFO] [2016-10-23 17:10:03][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 223 ms
+[WARN] [2016-10-23 17:10:16][com.lake.controller.TestController]delete
+[WARN] [2016-10-23 18:12:35][com.lake.controller.TestController]delete
+[INFO] [2016-10-23 18:31:31][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-10-23 18:31:31][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Oct 23 18:31:31 CST 2016]; root of context hierarchy
+[INFO] [2016-10-23 18:31:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-10-23 18:31:31][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-10-23 18:31:31][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 544 ms
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-10-23 18:31:31][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Oct 23 18:31:31 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-10-23 18:31:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add.*] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add/] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.*] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update/] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete.*] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete/] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search.*] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search/] onto handler 'testController'
+[INFO] [2016-10-23 18:31:31][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 277 ms
+[INFO] [2016-10-23 18:31:38][com.lake.controller.TestController]add success
+[INFO] [2016-10-23 18:32:27][com.lake.controller.TestController]add success
+[INFO] [2016-10-23 18:33:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-10-23 18:33:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Oct 23 18:33:37 CST 2016]; root of context hierarchy
+[INFO] [2016-10-23 18:33:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-10-23 18:33:37][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-10-23 18:33:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 476 ms
+[INFO] [2016-10-23 18:33:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-10-23 18:33:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Oct 23 18:33:37 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-10-23 18:33:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add.*] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/add/] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.*] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update/] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete.*] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/delete/] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search.*] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/search/] onto handler 'testController'
+[INFO] [2016-10-23 18:33:38][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 215 ms
+[INFO] [2016-10-23 18:33:39][com.lake.controller.TestController]add success
+[INFO] [2016-10-23 18:33:42][com.lake.controller.TestController]add success
+[INFO] [2016-10-23 18:33:43][com.lake.controller.TestController]add success
